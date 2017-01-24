@@ -1,6 +1,34 @@
 <a name="session-01---012417---installation--openframeworks-basics"></a>
 # Session 01 - 01/24/17 - Installation / openFrameworks basics
 
+<!-- MarkdownTOC -->
+
+- [Course Overview](#course-overview)
+- [Topics](#topics)
+    - [Installation](#installation)
+    - [openFrameworks folder structure](#openframeworks-folder-structure)
+    - [Creating a project](#creating-a-project)
+    - [Project structure](#project-structure)
+    - [Xcode Walkthrough](#xcode-walkthrough)
+    - [Main Entrypoint](#main-entrypoint)
+    - [Headers, declaration files, .h files](#headers-declaration-files-h-files)
+    - [Source files, definition files, .cpp files](#source-files-definition-files-cpp-files)
+    - [OpenFrameworks Commands](#openframeworks-commands)
+    - [Coding Style](#coding-style)
+    - [Basic window setup: framerate, shape, fullscreen](#basic-window-setup-framerate-shape-fullscreen)
+    - [Keyboard Interaction](#keyboard-interaction)
+    - [Mouse Interaction](#mouse-interaction)
+    - [Window Events](#window-events)
+    - [Introductory Coding Topics](#introductory-coding-topics)
+- [Where to find stuff](#where-to-find-stuff)
+    - [OpenFrameworks](#openframeworks)
+    - [C++](#c)
+- [Homework](#homework)
+- [Lab](#lab)
+
+<!-- /MarkdownTOC -->
+
+
 <a name="course-overview"></a>
 ## Course Overview
 
@@ -370,7 +398,7 @@ For your homework I want you to have a look at the examples, compile them, run t
 
 Then, I'd like you to pick your favorite example and attempt to explain what the code is doing.  I want you to describe the flow of the execution of the program from start to finish.  I also want you to describe every variable, method, class, and object that are used in the main.cpp and ofApp.h and ofApp.cpp files.  If you are feeling adventurous, you can even try an add-on that comes with examples.
 
-You should submit your homework through the kannu portal.  You can upload a screencast or a document describing code in fragments.  This will allow each of you as well as myself to give you feedback and also get a chance to know everyone's capabilities and understanding a bit better.
+You should submit your homework through the kannu portal.  You can upload a screencast or a document describing code in fragments.  This will allow each of you as well as myself to give you feedback and also get a chance to know everyone's capabilities and understanding a bit better.  You should also comment on another students work (25%) and create a forum post describing an openFrameworks project you found on the web.  For instance, you can look at creativeapplications.net createdigital/cdm blogs, fast:co, and creators project for inspiration.  Please share your source if you can.
 
 <a name="lab"></a>
 ## Lab

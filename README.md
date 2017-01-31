@@ -3,7 +3,7 @@
 Section Name: MTEC-616-01  
 Departments: School of Music  
 Prerequisites: Complete MTEC-614  
-Academic Level: Graduate  
+Academic Level: Bachelors (416) and Graduate (616)
 Term: Spring 2017  
 1/23/2017 - 5/12/2017  
 T 2:00 PM - 3:50 PM  
@@ -13,7 +13,7 @@ Classroom(s): B214A
 ## Schedule
 
 ### Session 01 - 01/24/17 - Installation / openFrameworks basics
-### Session 02 - 01/31/17 - Graphics
+### Session 02 - 01/31/17 - Basic Graphics / Audio Recording
 ### Session 03 - 02/07/17 - Audio Interaction
 ### Session 04 - 02/14/17 - Audio Synthesis
 ### Session 05 - 02/21/17 - Project Week (Lab Only)

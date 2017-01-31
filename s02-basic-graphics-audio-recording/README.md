@@ -2,7 +2,7 @@
 
 <!-- MarkdownTOC -->
 
-- [Overview](#overview)
+- [Session Overview](#session-overview)
 - [Topics](#topics)
     - [Counter](#counter)
     - [Mouse Input](#mouse-input)
@@ -18,8 +18,8 @@
 <!-- /MarkdownTOC -->
 
 
-<a name="overview"></a>
-## Overview
+<a name="session-overview"></a>
+## Session Overview
 
 In the next two sessions, we'll explore the use of some basic graphics primitives, how to animate them, and use them to control the recording and playback of audio.  The end result will be multisampler that can record/playback audio, automatically segment audio, and we'll try and apply some simple filters.  Along the way we'll learn about a lot of basic coding principles including if statements, for loops, and how to use classes to build objects and abstract our code.  We'll also see how to use parameters to define elements in a graphical user interface.  By the end of today, we'll see how to create an audio recorder that can record audio and play it back, and tomorrow we'll see how to add more interactivity including automatically segmenting audio and controlling the way it sounds with filtering.
  

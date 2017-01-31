@@ -4,6 +4,7 @@
 <!-- MarkdownTOC -->
 
 - [Course Overview](#course-overview)
+- [Session Overview](#session-overview)
 - [Topics](#topics)
     - [Installation](#installation)
     - [openFrameworks folder structure](#openframeworks-folder-structure)
@@ -35,6 +36,11 @@
 This course breaks down the components of audio and video using openFrameworks and allows you to explore their contents and manipulate them in real-time.  We'll look at some basic components of openFrameworks and how they can be used to explore audio and video data in real-time, and how what we build can be used for interactive installation, generative video, and exploratory visualizations.
 
 Homeworks will be worth about 50% of your overall grade, and 2 projects which are worth 25% each. Pretty much every session will have a homework, not too demanding but hopefully designed to help you and each other understand, and provide a way for me to give you feedback. The first homework for instance will be to explain the program flow of an example in openFrameworks, describing all variables, methods, classes, and objects that are used in the main and ofApp files.
+
+<a name="session-overview"></a>
+## Session Overview
+
+This session will introduce you openFrameworks, a creative-coding toolkit written primarily in C++.  It brings together many frameworks for a cross-platform coding environment capable of real-time audio visual analysis, graphics, sound processing, 3D, multithreading, communication protocols, and plenty more.  In this session, we'll see how to navigate openFrameworks, build a project, compile existing examples, and find additional resources.
 
 <a name="topics"></a>
 ## Topics

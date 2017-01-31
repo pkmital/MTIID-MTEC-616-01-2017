@@ -1,7 +1,7 @@
 #include "ofMain.h"
 
 
-    // declare the padbutton class and methods
+// declare the padbutton class and methods
 class padButton {
 public:
     // enumerators allow us to assign more interesting names to values of an integer
@@ -146,6 +146,7 @@ public:
         bRecording = false;
         bPlaying = false;
         bRecorded = false;
+        bForward = true;
         
         // which audio frame am i currently playing back
         frame = 0;
@@ -232,18 +233,41 @@ public:
         if(bPlaying && bRecorded)
         {
                 // we set the output to be our recorded buffer
-            for (int i = 0; i < bufferSize; i++){
-                    // so we have to access the current "playback frame" which is a variable
-                    // "frame".  this variable helps us determine which frame we should play back.
-                    // because one frame is only 512 samples, or 1/90th of a second of audio, we would like
-                    // to hear more than just that one frame.  so we playback not just the first frame,
-                    // but every frame after that... after 90 frames of audio, we will have heard
-                    // 1 second of the recording...
-                output[i] = buffer[i + frame*bufferSize];
-            }
             
                 // we have to increase our frame counter in order to hear farther into the audio recording
-            frame = (frame + 1) % numFrames;
+            if ((frame + 1) > numFrames || !bForward)
+            {
+                for (int i = bufferSize - 1; i >= 0; i--){
+                        // so we have to access the current "playback frame" which is a variable
+                        // "frame".  this variable helps us determine which frame we should play back.
+                        // because one frame is only 512 samples, or 1/90th of a second of audio, we would like
+                        // to hear more than just that one frame.  so we playback not just the first frame,
+                        // but every frame after that... after 90 frames of audio, we will have heard
+                        // 1 second of the recording...
+                    output[i] = buffer[i + frame*bufferSize];
+                }
+                
+                frame = frame - 1;
+                
+                bForward = false;
+            }
+            else if(frame == 0 || bForward)
+            {
+                for (int i = 0; i < bufferSize; i++){
+                        // so we have to access the current "playback frame" which is a variable
+                        // "frame".  this variable helps us determine which frame we should play back.
+                        // because one frame is only 512 samples, or 1/90th of a second of audio, we would like
+                        // to hear more than just that one frame.  so we playback not just the first frame,
+                        // but every frame after that... after 90 frames of audio, we will have heard
+                        // 1 second of the recording...
+                    output[i] = buffer[i + frame*bufferSize];
+                }
+                
+                frame = frame + 1;
+                
+                bForward = true;
+                
+            }
             
         }
             // else don't output anything to the speaker
@@ -311,7 +335,7 @@ private:
     padButton           button_play, button_record;
     
     // determined based on whether the user has pressed the play or record buttons
-    bool                bRecording, bPlaying, bRecorded;
+    bool                bRecording, bPlaying, bRecorded, bForward;
     
     // single instance of our padButton class
     // padButton           button1;

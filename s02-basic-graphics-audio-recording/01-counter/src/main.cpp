@@ -23,6 +23,8 @@ public:
     void update() {
         // update some variables
         counter = counter + 1;
+//        counter++;
+//        counter += 1;
     }
     
     // i also get called in a loop that runs until the program ends

@@ -35,7 +35,7 @@
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
             BuildableName = "emptyExample.app"
             BlueprintName = "emptyExample"
-            ReferencedContainer = "container:03-audio-input.xcodeproj">
+            ReferencedContainer = "container:05-audio-input.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,7 +58,7 @@
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
             BuildableName = "emptyExample.app"
             BlueprintName = "emptyExample"
-            ReferencedContainer = "container:03-audio-input.xcodeproj">
+            ReferencedContainer = "container:05-audio-input.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>

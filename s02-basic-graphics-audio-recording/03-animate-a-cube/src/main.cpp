@@ -14,8 +14,6 @@ public:
         // we are going to increment this variable each "frame"
         counter = 0;
         
-        brightness = 0;
-        
         ofResetElapsedTimeCounter();
     }
     
@@ -27,19 +25,29 @@ public:
     
     // i also get called in a loop that runs until the program ends
     void draw() {
+
         ofBackground(0);
+        
+        ofPushStyle();
+        {
+            ofPushStyle();
+            {
+                unsigned char brightness = sin(ofGetElapsedTimef() * 5.0) * 128.0 + 128.0;
+                printf("%f\n", brightness);
+                ofSetColor(brightness, 0, 0);
+                
+                ofDrawRectangle(20, 20, 100, 100);
+                ofNoFill();
+            }
+            ofPopStyle();
             
-        brightness = sin(ofGetElapsedTimef() * 5.0) * 128.0 + 128.0;
-        printf("%f\n", brightness);
-        ofSetColor(brightness, 0, 0);
-        ofNoFill();
-        ofRect(20, 20, 100, 100);
+        }
+        ofPopStyle();
     }
 
 
 private:
     int counter;
-    float brightness;
 };
 
 

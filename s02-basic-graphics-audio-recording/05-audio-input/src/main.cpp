@@ -14,8 +14,9 @@ public:
         
         sampleRate = 44100;
         initialBufferSize = 512;
-        buffer.resize(initialBufferSize);
         ofSoundStreamSetup(0, 1, this, sampleRate, initialBufferSize, 4);
+        
+        buffer.resize(initialBufferSize);
     }
     
     // i get called in a loop that runs until the program ends

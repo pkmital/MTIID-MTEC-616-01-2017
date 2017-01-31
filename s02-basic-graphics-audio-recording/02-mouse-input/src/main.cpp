@@ -14,7 +14,7 @@ public:
         myFont.loadFont("dekar.ttf", 36);
         
         // don't clear the background on each update/draw loop
-        // ofSetBackgroundAuto(false);
+         ofSetBackgroundAuto(false);
     }
     
     // i get called in a loop that runs until the program ends
@@ -35,6 +35,7 @@ public:
         char buf[256];
         sprintf(buf, "%d %d", mouseX, mouseY);
         myFont.drawString(buf, 50, 125);
+        ofDisableAlphaBlending();
     }
 
 private:

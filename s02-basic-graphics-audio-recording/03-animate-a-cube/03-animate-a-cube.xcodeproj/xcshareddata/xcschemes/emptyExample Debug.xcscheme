@@ -35,7 +35,7 @@
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
             BuildableName = "emptyExample.app"
             BlueprintName = "emptyExample"
-            ReferencedContainer = "container:02-basic-graphics.xcodeproj">
+            ReferencedContainer = "container:03-animate-a-cube.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,7 +58,7 @@
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
             BuildableName = "emptyExample.app"
             BlueprintName = "emptyExample"
-            ReferencedContainer = "container:02-basic-graphics.xcodeproj">
+            ReferencedContainer = "container:03-animate-a-cube.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>

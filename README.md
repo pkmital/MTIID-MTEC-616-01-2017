@@ -14,7 +14,7 @@ Classroom(s): B214A
 
 ### Session 01 - 01/24/17 - Installation / openFrameworks basics
 
-This session will introduce you openFrameworks, a creative-coding toolkit written primarily in C++.  It brings together many frameworks for a cross-platform coding environment capable of real-time audio visual analysis, graphics, sound processing, 3D, multithreading, communication protocols, and plenty more.  In this session, we'll see how to navigate openFrameworks, build a project, compile existing examples, and find additional resources.
+This session will introduce you to openFrameworks, a creative-coding toolkit written primarily in C++.  It brings together many frameworks for a cross-platform coding environment capable of real-time audio visual analysis, graphics, sound processing, 3D, multithreading, communication protocols, and plenty more.  In this session, we'll see how to navigate openFrameworks, build a project, compile existing examples, and find additional resources.
 
 ### Session 02 - 01/31/17 - Basic Graphics / Audio Recording
 

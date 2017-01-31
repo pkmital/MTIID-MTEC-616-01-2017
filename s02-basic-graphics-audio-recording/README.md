@@ -1,4 +1,4 @@
-# Session 02 - 01/31/17 - Graphics
+# Session 02 - 01/31/17 - Basic Graphics / Audio Recording
 
 <!-- MarkdownTOC -->
 

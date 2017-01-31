@@ -708,7 +708,7 @@ int main(){
 <a name="homework"></a>
 ## Homework
 
-Extend the "Advanced Audio Recorder" example to record multiple sounds.  As inspiration, consider making a multisampler like an MPC style array of buttons where each pad can be recorded and played back individually.  Explore the use of the vector object (e.g., vector<padButton> buttons), or use an array (e.g. padButton buttons[10]), or try just simply creating many buttons with the name, "button1", "button2", etc...  Each button should be responsible for its own interaction and recording/storage/playback of audio, though all behavior should be moderated/mediated by the main class, ofApp.
+Extend the "Basic Audio Recorder" example to record multiple sounds.  As inspiration, consider making a multisampler like an MPC style array of buttons where each pad can be recorded and played back individually.  Explore the use of the vector object (e.g., vector<padButton> buttons), or use an array (e.g. padButton buttons[10]), or try just simply creating many buttons with the name, "button1", "button2", etc...  Each button should be responsible for its own interaction and recording/storage/playback of audio, though all behavior should be moderated/mediated by the main class, ofApp.
 
 <a name="lab"></a>
 ## Lab

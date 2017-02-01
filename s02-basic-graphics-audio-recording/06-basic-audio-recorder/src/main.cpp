@@ -235,7 +235,7 @@ public:
                 // we set the output to be our recorded buffer
             
                 // we have to increase our frame counter in order to hear farther into the audio recording
-            if ((frame + 1) > numFrames || !bForward)
+            if (!bForward)
             {
                 for (int i = bufferSize - 1; i >= 0; i--){
                         // so we have to access the current "playback frame" which is a variable
@@ -248,10 +248,10 @@ public:
                 }
                 
                 frame = frame - 1;
-                
-                bForward = false;
+                if(frame == 0)
+                    bForward = true;
             }
-            else if(frame == 0 || bForward)
+            else
             {
                 for (int i = 0; i < bufferSize; i++){
                         // so we have to access the current "playback frame" which is a variable
@@ -264,8 +264,8 @@ public:
                 }
                 
                 frame = frame + 1;
-                
-                bForward = true;
+                if(frame == numFrames - 1)
+                    bForward = false;
                 
             }
             

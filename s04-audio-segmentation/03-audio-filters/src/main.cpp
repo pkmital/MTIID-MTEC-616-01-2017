@@ -1,4 +1,5 @@
 #include "ofMain.h"
+#include "ofxMaxim.h"
 
 
 class App : public ofBaseApp{
@@ -93,7 +94,10 @@ public:
         if(grains.size()) {
             
             for (int i = 0; i < buffer_size; i++) {
-                output[i] = grains[current_grain_i][i + current_frame_i * buffer_size];
+                output[i] = delay.dl(filter.lopass(grains[current_grain_i][i + current_frame_i * buffer_size],
+                                          ofClamp(mouseY / (float)ofGetHeight(), 0.0, 1.0)),
+                                     22050,
+                                     ofClamp(mouseX / (float)ofGetWidth(), 0.0, 1.0));
             }
             
             current_frame_i += 1;
@@ -199,6 +203,9 @@ private:
     int                     current_frame_i;
     int                     current_grain_i;
     int                     min_samples_per_grain;
+    
+    ofxMaxiDelayline        delay;
+    ofxMaxiFilter           filter;
     
     bool                    b_recording;
 };

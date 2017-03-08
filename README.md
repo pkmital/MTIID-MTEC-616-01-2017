@@ -24,8 +24,14 @@ In the next two sessions, we'll explore the use of some basic graphics primitive
 
 We'll continue with developing a multisampler that can record and playback audio.  The approach we take to develop our mutlisampler will allow us to scale it artibrarily, as well as add new functionality to it fairly easily.  We'll then explore another application which can chop audio automatically and we'll see how this can be used to create an infinitely generating random drum track.  To do this, we'll first see how to use the RMS of an audio signal to automatically segment audio.  Then we'll use some basic statistics of the RMS to segment audio and create some randomized audio playback of audio "grains", and also see how to visualize them.
 
-### Session 04 - 02/14/17 - Audio Synthesis
-### Session 05 - 02/21/17 - Project Week (Lab Only)
+### Session 04 - 02/14/17 - Audio Segmentation
+
+In this session we finish our implementation of an automatic segmentation of an audio signal and use the detected segments to randomly play back segments of audio.  Using a drum loop, we can see how to make some fun beat repeat style audio synthesis.
+
+### Session 05 - 02/21/17 - Granular Synthesis
+
+This session covers two methods for loading samples, maxiSample and pkmEXTAudio methods for reading and saving any audio format using Apples EXTAudio format.  Finally, we look at how to use maximilian's granular synthesis engine to independently pitch and time stretch the amen break.
+
 ### Session 06 - 02/28/17 - Video Interaction
 ### Session 07 - 03/07/17 - Computer Vision
 ### Session 08 - 03/14/17 - Projection Mapping and Projector/Camera Mapping

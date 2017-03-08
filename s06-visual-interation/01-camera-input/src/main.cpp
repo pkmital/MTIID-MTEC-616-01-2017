@@ -10,14 +10,9 @@ public:
         // the rate at which the program runs (FPS)
         ofSetFrameRate(60);
         
-        font.load("Dekar.ttf", 12);
-        font_large.load("Dekar.ttf", 24);
-        
-            // setup the camera
-        grabber.setDesiredFrameRate(10);
+        // setup the camera
+        grabber.setDesiredFrameRate(30);
         grabber.initGrabber(320, 240);
-        
-        fbo.allocate(320, 240);
     }
     
     void update(){
@@ -33,31 +28,11 @@ public:
         // draw the camera
         ofSetColor(255);
         
-        fbo.begin();
-            ofPushStyle();
-                ofSetColor(0, 10);
-                ofDrawRectangle(0, 0, ofGetWidth(), ofGetHeight());
-            ofPopStyle();
-            cam.begin();
-                grabber.draw(0, 0);
-            cam.end();
-        fbo.end();
-        
-        fbo.draw(0, 0, ofGetWidth(), ofGetHeight());
-        
-        fbo.draw(0, 0, 50, 50);
-        
-        ofSetWindowTitle(ofToString(ofGetFrameRate()));
-        ofDrawBitmapString(ofToString(ofGetFrameRate()), 20, 20);
-        font.drawString(ofToString(ofGetFrameRate()), 20, 40);
-        font_large.drawString(ofToString(ofGetFrameRate()), 20, 60);
+        grabber.draw(0, 0);
     }
     
 private:
     ofVideoGrabber grabber;
-    ofEasyCam cam;
-    ofFbo fbo;
-    ofTrueTypeFont font, font_large;
 };
 
 

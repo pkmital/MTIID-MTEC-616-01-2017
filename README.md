@@ -32,14 +32,23 @@ In this session we finish our implementation of an automatic segmentation of an 
 
 This session covers two methods for loading samples, maxiSample and pkmEXTAudio methods for reading and saving any audio format using Apples EXTAudio format.  Finally, we look at how to use maximilian's granular synthesis engine to independently pitch and time stretch the amen break.
 
-### Session 06 - 02/28/17 - Video Interaction
+### Session 06 - 02/28/17 - Visual Interaction
+
+This session covers some advanced uses of OpenGL including use of the 3D geometry, meshes, cameras, virtual lighting, and procedural generation of meshes from a camera or video file.
+
 ### Session 07 - 03/07/17 - Computer Vision
-### Session 08 - 03/14/17 - Projection Mapping and Projector/Camera Mapping
+
+This session covers introductory computer vision topics such as an understanding of pixels, colorspaces, frame differencing and background subtraction, optical flow, and use of OpenCV and ofxCv.
+
+### Session 08 - 03/14/17 - Advanced Visual Interaction
+
+This session explores an advanced use of computer vision known as blob tracking.  We then explore a simple interface for projection mapping.  Finally, we explore the use of the GLSL shader language.
+
 ### Session 09 - 03/21/17 - Audiovisual Interaction
 ### No Class - 03/28/17 - Spring Break
 ### Session 10 - 04/04/17 - Advanced Audio Analysis
 ### Session 11 - 04/11/17 - Machine Learning Part I
 ### Session 12 - 04/18/17 - Machine Learning Part II
-### Session 13 - 04/25/17 - Machine Learning Part III
-### Session 14 - 05/02/17 - Project Help (Lab Only)
-### Final Project Presentations - 05/09/17 - Project Week
+### Session 13 - 04/25/17 - NO CLASS
+### Session 14 - 05/02/17 - Project Help (Lab Only / Requests)
+### Final Project Presentations - 05/09/17 - Projects Due

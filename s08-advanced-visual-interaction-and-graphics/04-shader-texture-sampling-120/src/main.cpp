@@ -20,6 +20,7 @@ class ofApp : public ofBaseApp{
     
 public:
     void setup() {
+        counter = 0;
         width = ofGetWidth();
         height = ofGetHeight();
         
@@ -35,11 +36,24 @@ public:
 
     void draw() {
         fbo.begin();
+        
         shader.begin();
         shader.setUniformTexture("tex", grabber.getTexture(), 0);
         ofDrawRectangle(0, 0, width, height);
         shader.end();
+        
         fbo.end();
+        
+            // GPU -> CPU!
+        ofPixels pix;
+        fbo.readToPixels(pix);
+        ofImage img;
+        img.setFromPixels(pix);
+        
+        img.save(ofToString(counter) + ".png");
+        counter++;
+        
+        
         
         ofPushMatrix();
         fbo.draw(0, 0);
@@ -47,7 +61,7 @@ public:
     }
     
 private:
-    
+    int counter;
     int width, height;
     ofFbo fbo;
     ofShader shader;

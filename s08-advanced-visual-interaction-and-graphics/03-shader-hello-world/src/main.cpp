@@ -33,8 +33,13 @@ public:
     void draw() {
         shader.begin();
         
+        ofFill();
         ofDrawRectangle(0, 0, width, height);
         
+        glVertex(0, 0);
+        glVertex(0, width);
+        glVertex(width, height);
+
         shader.end();
     }
     

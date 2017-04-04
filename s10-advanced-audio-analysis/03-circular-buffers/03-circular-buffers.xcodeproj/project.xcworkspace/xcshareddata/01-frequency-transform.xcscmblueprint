@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CFE03C21B28D4B9BA97E07BAA6F119969A5E8269",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "452AD1114F3D0BA1774B8C2268E2CC43D5B144BB" : 9223372036854775807,
+    "92F288102054365C4B11BAD078303B89B1B39C09" : 9223372036854775807,
+    "CFE03C21B28D4B9BA97E07BAA6F119969A5E8269" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F967BA41-2BAE-4C63-89C1-D2966A16D886",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "452AD1114F3D0BA1774B8C2268E2CC43D5B144BB" : "..\/..\/..\/..\/dev\/pkm\/pkmFFT",
+    "92F288102054365C4B11BAD078303B89B1B39C09" : "..\/..\/..\/..\/dev\/pkm\/pkmMatrix",
+    "CFE03C21B28D4B9BA97E07BAA6F119969A5E8269" : "MTIID-MTEC-616-01-2017\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "01-frequency-transform",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "s10-advanced-audio-analysis\/01-frequency-transform\/01-frequency-transform.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:pkmital\/pkmFFT.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "452AD1114F3D0BA1774B8C2268E2CC43D5B144BB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pkmital\/pkmMatrix",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "92F288102054365C4B11BAD078303B89B1B39C09"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pkmital\/MTIID-MTEC-616-01-2017.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CFE03C21B28D4B9BA97E07BAA6F119969A5E8269"
+    }
+  ]
+}

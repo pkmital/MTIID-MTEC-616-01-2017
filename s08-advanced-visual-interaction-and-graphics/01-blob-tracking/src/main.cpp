@@ -2,9 +2,21 @@
 #include "ofxOpenCv.h"
 #include "pkmBlobTracker.h"
 
-class ofApp : public ofBaseApp {
+class ofApp : public ofBaseApp, public ofxCvBlobListener {
     
 public:
+    
+    void blobOn( int x, int y, int id, int order ) {
+        
+    }
+
+    void blobMoved( int x, int y, int id, int order ) {
+        
+    }
+
+    void blobOff( int x, int y, int id, int order ) {
+        
+    }
     
         // redeclaration of functions (declared in base class)
     void setup(){
@@ -20,19 +32,25 @@ public:
         ofSetFrameRate(30);
         
             // setup the camera
-        camera.initGrabber(img_width, img_height);
+        camera.setup(img_width, img_height);
         
-        tracker.setup();
+            // setup the tracker
+        tracker.setup(img_width, img_height);
+        tracker.setListener(this);
     }
     
     void update(){
         camera.update();
-        tracker.update(camera.getPixels().getData(), img_width, img_height);
+        
+        tracker.update(camera.getPixels());
     }
     
     void draw(){
             // background values go to 0
         ofBackground(0);
+        
+        ofSetColor(255);
+        camera.draw(0, 0);
         
             // draw the camera
         tracker.draw(0, 0);

@@ -35,7 +35,7 @@
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
             BuildableName = "loadingSamples.app"
             BlueprintName = "loadingSamples"
-            ReferencedContainer = "container:05-corpus-analysis.xcodeproj">
+            ReferencedContainer = "container:06-corpus-analysis.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,7 +58,7 @@
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
             BuildableName = "loadingSamples.app"
             BlueprintName = "loadingSamples"
-            ReferencedContainer = "container:05-corpus-analysis.xcodeproj">
+            ReferencedContainer = "container:06-corpus-analysis.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>

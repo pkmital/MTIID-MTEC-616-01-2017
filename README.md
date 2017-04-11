@@ -52,7 +52,7 @@ We looked at using the camera to make noise and interacting with tracked entitie
 
 ### Session 10 - 04/04/17 - Advanced Audio Analysis
 
-We looked at the DFT, Mel Transform, and MFCCs for audio fingerprinting and analysis.
+We looked at the DFT, Mel Transform, Circular Buffers, and MFCCs for audio fingerprinting and analysis.
 
 ### Session 11 - 04/11/17 - Machine Learning Part I
 ### Session 12 - 04/18/17 - Machine Learning Part II

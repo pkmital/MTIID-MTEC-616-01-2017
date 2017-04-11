@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CFE03C21B28D4B9BA97E07BAA6F119969A5E8269",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E0DC71BFE67F75D80C24B658C9671C34FDB45F42" : 9223372036854775807,
+    "CFE03C21B28D4B9BA97E07BAA6F119969A5E8269" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3D7C2B95-A816-49ED-BEF3-B7AA889E9BDC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E0DC71BFE67F75D80C24B658C9671C34FDB45F42" : "MTIID-MTEC-616-01-2017\/s11-machine-learning-pt1\/02-audio-tsne\/ofxTSNE\/",
+    "CFE03C21B28D4B9BA97E07BAA6F119969A5E8269" : "MTIID-MTEC-616-01-2017\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "02-audio-tsne",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "s11-machine-learning-pt1\/02-audio-tsne\/02-audio-tsne.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pkmital\/MTIID-MTEC-616-01-2017.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CFE03C21B28D4B9BA97E07BAA6F119969A5E8269"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/genekogan\/ofxTSNE",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E0DC71BFE67F75D80C24B658C9671C34FDB45F42"
+    }
+  ]
+}

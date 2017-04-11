@@ -45,8 +45,15 @@ This session covers introductory computer vision topics such as an understanding
 This session explores an advanced use of computer vision known as blob tracking.  We then explore a simple interface for projection mapping.  Finally, we explore the use of the GLSL shader language.
 
 ### Session 09 - 03/21/17 - Audiovisual Interaction
+
+We looked at using the camera to make noise and interacting with tracked entities from blob tracking to drive sonic generation.
+
 ### No Class - 03/28/17 - Spring Break
+
 ### Session 10 - 04/04/17 - Advanced Audio Analysis
+
+We looked at the DFT, Mel Transform, and MFCCs for audio fingerprinting and analysis.
+
 ### Session 11 - 04/11/17 - Machine Learning Part I
 ### Session 12 - 04/18/17 - Machine Learning Part II
 ### Session 13 - 04/25/17 - NO CLASS

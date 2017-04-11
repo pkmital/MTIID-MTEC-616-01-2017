@@ -12,9 +12,8 @@ public:
     }
 
     Recording(pkmMatrix &mags, pkmMatrix &buf) {
-        magnitudes = mags;
         buffer = buf;
-        features = magnitudes.mean();
+        features = mags.mean();
         current_frame = 0;
         total_frames = buffer.rows;
     }
@@ -37,7 +36,6 @@ public:
 
 private:
     int current_frame, total_frames;
-    pkmMatrix magnitudes;
     pkmMatrix buffer;
     pkmMatrix features;
 };

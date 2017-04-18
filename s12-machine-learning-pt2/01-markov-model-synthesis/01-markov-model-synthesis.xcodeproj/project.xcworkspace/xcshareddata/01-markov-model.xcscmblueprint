@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CFE03C21B28D4B9BA97E07BAA6F119969A5E8269",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6E5DC8B5F5175D540605B4EE775E96AD16A3FAD1" : 9223372036854775807,
+    "CFE03C21B28D4B9BA97E07BAA6F119969A5E8269" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F000CB01-8CAC-4712-8489-19E46E17EC89",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6E5DC8B5F5175D540605B4EE775E96AD16A3FAD1" : "MTIID-MTEC-616-01-2017\/s12-machine-learning-pt2\/01-markov-model\/ofxLearn\/",
+    "CFE03C21B28D4B9BA97E07BAA6F119969A5E8269" : "MTIID-MTEC-616-01-2017\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "01-markov-model",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "s12-machine-learning-pt2\/01-markov-model\/01-markov-model.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:genekogan\/ofxLearn.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6E5DC8B5F5175D540605B4EE775E96AD16A3FAD1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pkmital\/MTIID-MTEC-616-01-2017.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CFE03C21B28D4B9BA97E07BAA6F119969A5E8269"
+    }
+  ]
+}

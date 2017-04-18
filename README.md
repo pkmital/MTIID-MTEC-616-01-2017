@@ -55,7 +55,13 @@ We looked at using the camera to make noise and interacting with tracked entitie
 We looked at the DFT, Mel Transform, Circular Buffers, and MFCCs for audio fingerprinting and analysis.
 
 ### Session 11 - 04/11/17 - Machine Learning Part I
+
+We explored the use of kNN and tSNE for concatenative synthesis and visual exploration of a grain cloud.
+
 ### Session 12 - 04/18/17 - Machine Learning Part II
+
+We explored the use of k-means clustering and markov chains for generative concatenative synthesis.
+
 ### Session 13 - 04/25/17 - NO CLASS
 ### Session 14 - 05/02/17 - Project Help (Lab Only / Requests)
 ### Final Project Presentations - 05/09/17 - Projects Due

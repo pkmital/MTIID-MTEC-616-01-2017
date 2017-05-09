@@ -135,7 +135,7 @@ public:
             if(rec_i == best_idx)
                 ofSetColor(255);
             else
-                ofSetColor(pts[rec_i][0] * 200, pts[rec_i][1] * 200, pts[rec_i][2] * 200);
+                ofSetColor(200, 100, 100);
             ofDrawCircle(x, y, 4);
         }
         
@@ -197,7 +197,7 @@ public:
                 features.push_back(this_feature);
             }
             
-            pts = tsne.run(features, 3);
+            pts = tsne.run(features, 2);
         }
     }
     

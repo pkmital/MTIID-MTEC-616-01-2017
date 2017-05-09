@@ -24,9 +24,7 @@ public:
     
     // i also get called in a loop that runs until the program ends
     void draw() {
-        ofEnableAlphaBlending();
-        ofSetColor(0, 0, 0, 10);
-        ofDrawRectangle(0, 0, width, height);
+        ofBackground(0);
         
         // draw a line across the middle of the screen
         ofSetColor(100, 100, 100);

@@ -213,15 +213,13 @@ public:
         transition_table.print();
     }
     
-    int transition(int current_cluster=-1) {
-        if(current_cluster == -1)
-            current_cluster = previous_cluster;
-        pkmMatrix row = transition_table.rowRange(current_cluster, current_cluster + 1);
+    int transition() {
+        pkmMatrix row = transition_table.rowRange(previous_cluster, previous_cluster + 1);
         float r = (rand() % 100) / 100.0;
         float cumsum = 0;
         for(int c = 0; c < row.cols; c++) {
             cumsum += row[c];
-            if(cumsum > r) {
+            if(r < cumsum) {
                 previous_cluster = c;
                 return c;
             }
@@ -287,8 +285,8 @@ public:
                 current_frame++;
             }
             else {
-                current_cluster = corpus.transition();
-                segment = corpus.sample(current_cluster);
+                corpus.transition();
+                segment = corpus.sample();
                 current_frame = 0;
                 for (int i = 0; i < size; i++) {
                     buf[i] = segment.row(current_frame)[i];
